@@ -1,13 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-18T00:17:00+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2019/10/17/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-10-17T23:20:03+02:00</published><updated>2019-10-17T23:20:03+02:00</updated><id>http://localhost:4000/jekyll/update/2019/10/17/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/10/17/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-18T08:23:52+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Holigon</title><subtitle>A site created for the purpose of publishing project reports for my programming projects, and other programming related writings.</subtitle><entry><title type="html">Project Report 1: dog.py [WIP]</title><link href="http://localhost:4000/jekyll/update/2019/10/18/dog.py-report.html" rel="alternate" type="text/html" title="Project Report 1: dog.py [WIP]" /><published>2019-10-18T01:12:03+02:00</published><updated>2019-10-18T01:12:03+02:00</updated><id>http://localhost:4000/jekyll/update/2019/10/18/dog.py-report</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/10/18/dog.py-report.html">&lt;h2 id=&quot;dogpy--teach-arthur-the-dog-to-sit-by-giving-him-an-excessive-amount-of-treats&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;dog.py&lt;/code&gt; | Teach Arthur the Dog to sit… by giving him an excessive amount of treats&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h3 id=&quot;introduction---what-is-the-program&quot;&gt;&lt;strong&gt;Introduction - What is the program&lt;/strong&gt;&lt;/h3&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;The program &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;dog.py&lt;/code&gt;&lt;/strong&gt; is a “game” where you have to teach your dog, ‘Arthur the Dog’ to sit on command.
+Arthur is a stubborn dog though, and refuses to even try to listen unless you give him the specific amount of treats he wants!&lt;br /&gt;
+Arthur is a very smart dog, and for some kind of reason he is capable of understanding the concept of numbers, and due to what either amounts to telepathy or the ability to speak, he can communicate the exact number of treats he wants to be satisfied…&lt;br /&gt;
+He will eat anything you give to him though, so be careful not to overfeed him, as he could get sick!&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;goals&quot;&gt;&lt;strong&gt;Goals&lt;/strong&gt;&lt;/h3&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;This is the first program I wrote after my hiatus. My goals for this project were:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Regaining my knowledge of Python 3 syntax&lt;/li&gt;
+  &lt;li&gt;Getting into the algorithmic mindset again&lt;/li&gt;
+  &lt;li&gt;Creating a program with “game-y” mechanics, so the user is able to interact with it&lt;/li&gt;
+  &lt;li&gt;Creating failsafes for wrong user-input (ie. writing letters somewhere numbers are the expected input)&lt;/li&gt;
+  &lt;li&gt;Making the code readable&lt;/li&gt;
+  &lt;li&gt;Writing extensive comments to individual lines, to have somewhere to look up the methods I used for future projects&lt;/li&gt;
+  &lt;li&gt;Giving the program a “story element”, so it would be easier to share with friends for contructive critisism and input.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I figured these goals would help me to understand the fundamentals of Python again, and give me a foundation for future projects.
+I also wanted to make something fun, that I could share with people to regain my excitement for programming.&lt;/p&gt;
+
+&lt;h3 id=&quot;process&quot;&gt;&lt;strong&gt;Process&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;The concept of the dog training program came from the idea:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;How would I explain what programming is - and how it worked - to a child with no prior knowledge on the subject?&lt;br /&gt;
+How would I make it interesting and easy to understand?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My answer to this was to explain the algorithmic process of making a dog understand what “sit” meant through the use of classical conditioning (ie. giving treats for obeying the command).&lt;/p&gt;
+
+&lt;p&gt;Now I’m not in the business of making dog simulator games, so it became more of a process of a “how many treats does the dog want, before it will sit?”.&lt;br /&gt;
+As the project went on, the &lt;em&gt;explaining to a child&lt;/em&gt; idea became limiting, and I decided to abandon that, so I could delve into the more “advanced” built-in functions Python offer.&lt;/p&gt;
+
+&lt;h3 id=&quot;execution&quot;&gt;&lt;strong&gt;Execution&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;WIP&lt;/p&gt;
+
+&lt;h3 id=&quot;methods&quot;&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;WIP&lt;/p&gt;
+
+&lt;h3 id=&quot;hindsight&quot;&gt;&lt;strong&gt;Hindsight&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;WIP&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;WIP&lt;/p&gt;</content><author><name></name></author><summary type="html">dog.py | Teach Arthur the Dog to sit… by giving him an excessive amount of treats</summary></entry><entry><title type="html">Project Report Guidelines</title><link href="http://localhost:4000/jekyll/update/2019/10/18/report-guidelines.html" rel="alternate" type="text/html" title="Project Report Guidelines" /><published>2019-10-18T01:08:00+02:00</published><updated>2019-10-18T01:08:00+02:00</updated><id>http://localhost:4000/jekyll/update/2019/10/18/report-guidelines</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/10/18/report-guidelines.html">&lt;h2 id=&quot;report-structure-guidelines&quot;&gt;&lt;strong&gt;Report Structure Guidelines&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;I want to structure my project reports in a rigid manner to effectivise the writing process, and to be able to have an easy way to look back on the thougt process behind each project.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Guidelines&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Introduction&lt;/strong&gt; - What is the purpose of the program? What does the program do?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Goals&lt;/strong&gt; - What are my goals for this project? (Learning, Functionality, Uses, etc.)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Process&lt;/strong&gt; - How did I approach the goals? How did I come up with the idea?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Execution&lt;/strong&gt; - How does the code work? What paths does it follow? (Maybe diagrams as visual aid?)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Methods&lt;/strong&gt; - Which built-in functions did I use? Did I import libaries? Which?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hindsight&lt;/strong&gt; - Did I do something that in hindsight could’ve been done better? Any regrets? Any critisism?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Conclusion&lt;/strong&gt; - Did I achieve my goals? How could I improve? Anything I need to remember for the next project?&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Report Structure Guidelines</summary></entry></feed>
